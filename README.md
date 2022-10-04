@@ -19,6 +19,7 @@ print("Hello World")
 ### This is a link to my github
 [JRudyRay GitHub](https://github.com/JRudyRay)
 
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+### This is a table
+| a | b | c | d |
+|---|---|---|---|
+| e | f | g | h |
