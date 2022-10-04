@@ -1,0 +1,32 @@
+---
+title: "My First Quarto Document"
+author: "John Oehninger"
+format: html
+editor: visual
+---
+
+## Sampling from a Negative Binomial Distribution
+
+The code below demonstrates sampling from a negative binomial distribution.
+
+```{r}
+# Setting a seed for reproducibility
+set.seed(99)
+
+# Defining desired parameters of the distribution
+n <- 100
+dispersion <- 2
+mu <- 2
+
+# Taking a sample and storing it
+sample <- rnbinom(n=n, size=dispersion, mu=mu)
+
+# Plots
+par(mfrow=c(1,2)) # setting plot display preferences
+hist(sample)
+hist(log(sample+1))
+
+
+```
+
+Above you can see the histograms of the data sampled from the negative binomial distribution. The first plot is the linear scale, the second one is on a log(sample+1) scale.
