@@ -13,12 +13,12 @@ mkdir STA426-JRudyRay
 print("Hello World")
 ```
 
-![](peugeot_bike.png)
+### This is an image of an old school Peugeot Bike
+![Peugeot Bike](https://github.com/JRudyRay/STA426-JRudyRay/blob/main/img/peugeot_bike.jpeg)
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+### This is a link to my github
+[JRudyRay GitHub](https://github.com/JRudyRay)
 
-Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
